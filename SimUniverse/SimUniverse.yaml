@@ -1,0 +1,20 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../data  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test:  # test images (optional)
+
+# Classes
+names:
+  0: player
+  1: portal-red
+  2: portal-blue
+  3: portal-green
+  4: portal-red-closed
+  5: portal-blue-closed
+  6: portal-green-closed
+  7: herta
+  8: enemy
+  9: breakable-item
+  10: quests
+  11: awards

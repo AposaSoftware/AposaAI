@@ -1,0 +1,4 @@
+# Usage: pip install -r requirements.txt
+
+ultralytics
+onnx>=1.12.0
